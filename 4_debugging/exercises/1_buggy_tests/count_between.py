@@ -34,7 +34,8 @@ def count_between(numbers: list, lower: int, upper: int) -> int:
         1
         >>> count_between([], 0, 10)
         0
-    """
+    """ 
+    """counts how many numbers in the list fall between lower and upper bounds"""
     assert isinstance(numbers, list), "first argument must be a list"
     assert isinstance(lower, int), "lower bound must be an integer"
     assert isinstance(upper, int), "upper bound must be an integer"
