@@ -18,7 +18,7 @@ Created on: 9 Dec
 
 #--- after documenting and testing 
 
-def mystery_5(a, b=None):
+def mystery_5(a, b):
     """
     Sorts the elements of list `a` in ascending order and appends them to list `b`.
 
@@ -37,8 +37,6 @@ def mystery_5(a, b=None):
         >>> mystery_5([])
         []
     """
-    if b is None:
-        b = []
     while a:
         c = min(a)
         a.remove(c)
